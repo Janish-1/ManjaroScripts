@@ -1,0 +1,1 @@
+sudo pacman -S php-apache php-cgi php-fpm php-gd  php-embed php-intl php-redis php-snmp
