@@ -1,7 +1,3 @@
-git clone https://aur.archlinux.org/snapd.git /run/media/janish/home/snapd
-cd /run/media/janish/home/snapd
-sudo pacman -S go go-tools python-docutils autoconf-archive
-makepkg -si
-sudo systemctl enable --now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install postman
+wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
+sudo tar xvzf postman-linux-x64.tar.gz -C /opt
+sudo ln -s /opt/Postman/Postman /usr/bin/postman
