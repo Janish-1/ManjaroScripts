@@ -1,13 +1,13 @@
-yay postgresql pgadmin4
-sudo -u postgres -i
-initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/'
+sudo pacman -S postgresql
+postgres --version
+sudo -iu postgres
+initdb -D '/var/lib/postgres/data/'
 exit
-sudo systemctl enable --now postgresql
+sudo systemctl enable postgresql
+sudo -u postgres psql -c "initdb --locale=C.UTF-8 --encoding=UTF8 -D '/var/lib/postgres/data'"
+sudo systemctl start postgresql
 sudo systemctl status postgresql
-psql -U postgres
-postgres=# \password # to set password
-su
-cd /var/lib/postgres/data
-cp pg_hba.conf pg_hba.conf.backup
-# change trust to md5
-nano pg_hba.conf 
+sudo systemctl enable postgresql
+sudo -u postgres psql -c "CREATE USER janish WITH ENCRYPTED PASSWORD 'janish11';"
+sudo -u postgres psql -c "CREATE DATABASE postgres;"
+sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE postgres TO janish;"
