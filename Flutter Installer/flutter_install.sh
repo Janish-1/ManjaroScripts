@@ -1,3 +1,3 @@
-git clone https://aur.archlinux.org/flutter.git /home/janish/Data/Flutter
-cd /home/janish/Data/Flutter
-makepkg -si
+sudo ln -s /var/lib/snapd/snap /snap
+snap install flutter --classic
+flutter doctor

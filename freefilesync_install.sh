@@ -1,1 +1,1 @@
-flatpak install org.freefilesync.FreeFileSync
+# See in Data-Janish
