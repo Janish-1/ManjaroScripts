@@ -1,1 +1,1 @@
-sudo pacman -Syu dolphin
+sudo pacman -Syu dolphin konsole ark
