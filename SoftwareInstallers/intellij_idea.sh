@@ -1,1 +1,0 @@
-sudo pacman -Syu intellij-idea-community-edition
