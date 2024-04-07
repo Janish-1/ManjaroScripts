@@ -1,1 +1,1 @@
-sudo pacman -Syu python-pandas python-joblib python-scikit-learn python-pip python-django
+sudo pacman -Syu python-pip python-django
