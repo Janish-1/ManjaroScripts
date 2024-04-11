@@ -5,7 +5,9 @@ sudo systemctl enable docker.service
 sudo docker version
 sudo docker info
 
-# Generate a key
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+
 gpg --generate-key
-# Stores Pass Key to a file
 pass init <public-key> 
