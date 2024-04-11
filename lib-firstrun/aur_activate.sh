@@ -1,1 +1,1 @@
-pamac install base-devel git
+sudo pamac install base-devel git
