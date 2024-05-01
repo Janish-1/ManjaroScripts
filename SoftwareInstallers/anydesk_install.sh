@@ -1,1 +1,0 @@
-sudo pamac build anydesk

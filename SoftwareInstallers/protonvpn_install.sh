@@ -1,3 +1,3 @@
 sudo pamac build protonvpn-cli
-protonvpng-cli login Raggs01
+protonvpn-cli login Raggs01
 # Password : Jp@123456

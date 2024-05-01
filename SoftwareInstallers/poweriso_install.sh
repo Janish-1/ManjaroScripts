@@ -1,1 +1,1 @@
-flatpak install flathub com.poweriso.PowerISO
+sudo pamac build poweriso
