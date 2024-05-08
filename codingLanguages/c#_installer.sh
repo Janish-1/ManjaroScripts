@@ -1,1 +1,1 @@
-sudo pacman -Syu dotnet-sdk
+sudo pacman -Syu dotnet-sdk mono nuget
