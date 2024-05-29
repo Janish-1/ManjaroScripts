@@ -1,1 +1,0 @@
-sudo pacman -Syu desmume dolphin-emu vbam-wx
