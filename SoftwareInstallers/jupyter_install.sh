@@ -1,0 +1,1 @@
+sudo pacman -Syu jupyter-notebook jupyterlab

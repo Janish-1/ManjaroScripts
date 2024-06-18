@@ -1,0 +1,1 @@
+sudo pacman -Syu dolphin konsole ark kio-admin

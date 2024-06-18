@@ -1,0 +1,1 @@
+sudo pamac install nuget
