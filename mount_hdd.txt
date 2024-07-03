@@ -1,2 +1,2 @@
-UUID=CE885E13885DFA83   /run/media/SharedPartition       ntfs    default,uid=1000,gid=1000,umask=0022    0       0
+UUID=CE885E13885DFA83   /home/janish/Shared       ntfs    default,uid=1000,gid=1000,umask=0022    0       0
 sudo ntfsfix /dev/sda1
