@@ -1,1 +1,1 @@
-sudo pacman -Syu python-pip python-django python-torchvision
+sudo pacman -Syu python-pip python-django

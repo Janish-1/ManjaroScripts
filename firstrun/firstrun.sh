@@ -1,0 +1,1 @@
+sudo pacman-mirrors -f && sudo pacman -Syyu
