@@ -1,2 +1,0 @@
-sudo systemctl enable --now mariadb
-sudo systemctl status mariadb
