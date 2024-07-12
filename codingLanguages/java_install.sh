@@ -1,1 +1,1 @@
-sudo pacman -Syu jdk21-openjdk
+sudo pacman -Syu jdk17-openjdk
