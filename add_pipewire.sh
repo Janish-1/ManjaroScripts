@@ -6,9 +6,6 @@ systemctl --user disable pulseaudio.socket
 systemctl --user stop pulseaudio
 systemctl --user disable pulseaudio
 
-# Uninstall PulseAudio and related packages
-sudo pacman -Rns pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-jack pulseaudio-lirc pulseaudio-equalizer pulseaudio-zeroconf
-
 # Update the system
 sudo pacman -Syu
 

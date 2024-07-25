@@ -10,9 +10,6 @@ systemctl --user disable pipewire-pulse.socket
 systemctl --user stop pipewire-pulse
 systemctl --user disable pipewire-pulse
 
-# Uninstall PipeWire and related packages
-sudo pacman -Rns pipewire pipewire-pulse pipewire-alsa pipewire-jack
-
 # Update the system
 sudo pacman -Syu
 
