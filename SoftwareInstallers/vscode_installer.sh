@@ -1,2 +1,2 @@
 sudo pacman -Syu code
-sudo pamac build code-features
+yay -S code-features

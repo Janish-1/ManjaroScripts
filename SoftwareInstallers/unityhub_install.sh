@@ -1,1 +1,1 @@
-sudo pamac build unityhub
+yay -S unityhub

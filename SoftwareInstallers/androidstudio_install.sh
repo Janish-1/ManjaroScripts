@@ -1,4 +1,4 @@
-sudo pamac build android-studio
+yay -S android-studio
 echo "export ANDROID_HOME=$HOME/Android/Sdk" >> ~/.bashrc
 echo "export PATH=$PATH:$ANDROID_HOME/emulator" >> ~/.bashrc
 echo "export PATH=$PATH:$ANDROID_HOME/tools" >> ~/.bashrc

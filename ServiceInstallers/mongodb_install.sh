@@ -1,7 +1,5 @@
 sudo pacman -Syu
-sudo pamac build mongodb-bin
-sudo pamac build mongodb-tools-bin
-sudo pamac build mongodb-compass
+yay -S mongodb-bin mongodb-tools-bin mongodb-compass
 sudo systemctl start mongodb
 sudo systemctl enable mongodb
 mongod --version 
