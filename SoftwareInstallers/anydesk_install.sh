@@ -1,2 +1,2 @@
 sudo pacman -Syu
-yay -S anydesk-bin
+sudo pamac install anydesk-bin

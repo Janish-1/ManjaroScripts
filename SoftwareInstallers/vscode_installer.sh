@@ -1,2 +1,2 @@
 sudo pacman -Syu code
-yay -S code-features
+sudo pamac install code-features

@@ -1,1 +1,1 @@
-yay -S unityhub
+sudo pamac install unityhub

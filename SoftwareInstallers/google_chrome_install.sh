@@ -1,1 +1,1 @@
-yay -S google-chrome
+sudo pamac install google-chrome
