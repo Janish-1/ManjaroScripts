@@ -1,0 +1,1 @@
+sudo pamac build waydroid
