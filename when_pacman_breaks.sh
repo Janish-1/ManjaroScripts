@@ -1,3 +1,6 @@
+sudo pacman-mirrors -f 
+rm -rf /var/tmp/pamac/dbs/sync/*
+sudo pamac update --force-refresh
 sudo pacman-mirrors -f5 && sudo pacman -Syyu
 sudo pacman-mirrors --geoip
 sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syu
