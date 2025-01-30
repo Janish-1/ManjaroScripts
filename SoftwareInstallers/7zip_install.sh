@@ -1,0 +1,1 @@
+sudo pacman -S p7zip
