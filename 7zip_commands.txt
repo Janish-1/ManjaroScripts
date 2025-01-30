@@ -1,0 +1,5 @@
+Max Compression
+7z a -t7z -mx=9 -mmt=on -mfb=256 -md=512m -ms=on compressed.7z my_folder/
+
+Split Compression
+7z a -t7z -mx=9 -v1g compressed.7z my_folder/
