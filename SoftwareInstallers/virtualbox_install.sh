@@ -1,1 +1,3 @@
-sudo pamac build virtualbox
+uname -r
+sudo pacman -S virtualbox
+sudo modprobe vboxdrv
