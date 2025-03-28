@@ -1,4 +1,4 @@
-sudo pamac install android-studio
+sudo snap install --classic android-studio
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
