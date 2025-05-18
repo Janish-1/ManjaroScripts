@@ -1,7 +1,2 @@
-Builds
 docker-desktop-x86_64.pkg.tar.zst
-postman-linux-x64.tar.gz
-FreeFileSync_13.7_Linux.tar.gz
-FreeFileSync_13.7_Install.run
-c-client
-.sync.ffs_db
+xampp-linux-x64-8.2.12-0-installer.run
